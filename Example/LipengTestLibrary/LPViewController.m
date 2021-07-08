@@ -7,6 +7,8 @@
 //
 
 #import "LPViewController.h"
+#import <MyStaticLibrary.h>
+
 
 @interface LPViewController ()
 
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    MyStaticLibrary *lib = [MyStaticLibrary new];
+    [lib test];
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,7 +8,6 @@ target 'LipengTestLibrary_Example' do
   target 'LipengTestLibrary_Tests' do
     inherit! :search_paths
 
-    pod 'Specta'
     pod 'Expecta'
     pod 'FBSnapshotTestCase'
     pod 'Expecta+Snapshots'
