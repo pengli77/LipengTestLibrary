@@ -22,6 +22,8 @@
 	
     MyStaticLibrary *lib = [MyStaticLibrary new];
     [lib test];
+    
+    NSLog(@"测试一下提交");
 }
 
 - (void)didReceiveMemoryWarning
